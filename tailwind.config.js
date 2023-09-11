@@ -9,14 +9,14 @@ export default {
       colors: {
         'primary-blue': '#011b33;',
         'light-green': '#3BB75E;',
-        'hover-blue': '#3BB75E;'
+        'check-green': '#F1FEF4;'
       },
 
 
       backgroundImage:{
         'hero-pattern': "url('./src/assets/svg.png')",
 
-        'footer-pattern': "url('./src/assets/woman-holding-various-shopping-bags-copy-space.jpg')",
+        'trusted-pattern': "url('./src/assets/pseudo.png')",
 
       }
 

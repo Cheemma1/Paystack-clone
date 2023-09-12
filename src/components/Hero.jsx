@@ -8,10 +8,10 @@ import { Play } from 'phosphor-react'
 
 const Hero = () => {
   return (
-    <div className=' container m-auto text-primary-blue font-Robotos'>
+    <div className=' container m-auto text-primary-blue '>
     <div className='grid px-2  md:px-0  md:grid-cols-2 gap-14'> 
 <div className='mt-12'>
- <h1 className=' text-4xl md:text-5xl font-bold py-6'>Modern online and offline  payments for Africa</h1>
+ <h1 className=' text-4xl md:text-5xl font-bold py-6 font-Boing'>Modern online and offline  payments for Africa</h1>
  <p className='text-1xl md:text-2xl'>Paystack helps businesses in Africa get paid by anyone, anywhere in the world</p>
  <div className='flex items-center  gap-3 my-5'>
  <p className="bg-light-green py-2 px-4 rounded-md text-white cursor-pointer">

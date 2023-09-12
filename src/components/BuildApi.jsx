@@ -7,7 +7,7 @@ const BuildApi = () => {
     <div className='container m-auto  font-Roboto  text-primary-blue py-28 px-4 md:px-0'>
 <div className='grid grid-cols-1 md:grid-cols-2'>
 <div className='' >
-<h1 className='text-4xl font-bold pb-3 md:w-3/4'>Build custom  payment experiences with well-documented APIs</h1>
+<h1 className='text-4xl font-bold font-Boing pb-3 md:w-3/4'>Build custom  payment experiences with well-documented APIs</h1>
 <p className='py-5 md:w-3/4'>Developers love our thorough, well-documented  APIs that let you to build everything from simple weekend   projects, to complex financial products serving hundreds  of thousands of customers. If you can imagine it, you can build it with Paystack</p>
 
 <ul  className=''> <li className='flex items-center py-5'> <span className='bg-check-green  text-light-green p-2 '><Check weight='fill'/> </span> Collect one-time and recurring payments from your app or website</li>

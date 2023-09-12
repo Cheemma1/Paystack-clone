@@ -3,8 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily:{
-      Roboto:[ 'Roboto', 'sans-serif']
+      Roboto:[ 'Roboto', 'sans-serif'],
+      Boing:["Boing WEB Bold"]
     },
+
     extend: {
       colors: {
         'primary-blue': '#011b33;',

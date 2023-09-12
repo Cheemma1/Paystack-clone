@@ -20,7 +20,8 @@ export default {
 
         'trusted-pattern': "url('./src/assets/pseudo.png')",
         
-        'partner-pattern': "url('./src/assets/pseudo.png')",
+        'partner-pattern': "url('./src/assets/circular-pattern.png')",
+        'last-pattern': "url('./src/assets/pseudo (2).png')",
 
       }
 

@@ -18,7 +18,7 @@ const BuildApi = () => {
 </li>
 
 </ul>
-<p className='text-light-green flex items-center gap-2'> <span className='border-2'><CaretRight/></span> Paystack API Quickstart</p>
+<p className='text-light-green flex items-center   gap-2'> <span className='border-2 border-light-green rounded-full text-light-green'><CaretRight/></span> Paystack API Quickstart</p>
 </div>
 
 <div className='w-full -order-1  md:order-1 '>

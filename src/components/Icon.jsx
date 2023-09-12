@@ -24,7 +24,7 @@ const Icon = () => {
 <div className='py-5'>
     <h2 className='font-bold font-Boing text-4xl md:text-5xl py-4 md:w-3/5 '>Powering growth for amazing businesses
 </h2>
-<p className='font-Roboto  text-1xl md:text-2xl md:w-7/12 '>Paystack is a growth engine for a new generation of innovative, forward-looking organizations operating in Africa.
+<p className='font-Roboto text-lg md:w-2/5 '>Paystack is a growth engine for a new generation of innovative, forward-looking organizations operating in Africa.
 
 </p>
 </div>

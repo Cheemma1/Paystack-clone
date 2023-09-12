@@ -19,6 +19,8 @@ export default {
         'hero-pattern': "url('./src/assets/svg.png')",
 
         'trusted-pattern': "url('./src/assets/pseudo.png')",
+        
+        'partner-pattern': "url('./src/assets/pseudo.png')",
 
       }
 

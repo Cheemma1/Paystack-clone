@@ -6,7 +6,7 @@ import { CaretRight } from 'phosphor-react'
 
 const Trusted = () => {
   return (
-    <div className='bg-trusted-pattern w-full bg-center bg-cover pt-20 pb-36 px-4 bg-sky-100 md:px-6'>
+    <div className='bg-trusted-pattern w-full bg-center bg-cover pt-20  pb-4 md:pb-36 px-4 bg-sky-100 md:px-6'>
 <div className='py-20'>
   <h2 className='font-bold font-Boing text-5xl md:w-1/2 pb-4 '>Trusted by 200,000+ businesses</h2>
     <p className='font-Roboto text-2xl '>Thousands of organizations of all sizes trust Paystack to grow their  business.

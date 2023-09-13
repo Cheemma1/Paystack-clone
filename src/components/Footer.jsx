@@ -5,7 +5,7 @@ import MobFooter from './MobFooter'
 const Footer = () => {
   return (
     <footer className='container m-auto md:py-14'>
-        <div className="block lg:hidden">
+        <div className="block md:hidden">
         <MobFooter/></div>
 <div className='grid-cols-4 gap-4 hidden md:grid'>
         

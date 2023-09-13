@@ -2,8 +2,9 @@ import { useState } from "react";
 import Dropdown from "../DesktopNav/Dropdown";
 import logo from "../../assets/Frame.svg";
 import Open from "./Open";
-import { CaretDown } from "phosphor-react";
+import { CaretDown, List } from "phosphor-react";
 import Learn from "./Learn";
+import NavMob from "../MobileNav/NavMob";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -15,11 +16,22 @@ const Nav = () => {
   const clickBtn1 = () => {
     setIsOpen(!isOpen);
   };
-
+  const [mob, setMob] =useState(false)
+const openNav=() =>{
+  setMob(!mob)
+}
   return (
+    <>
+    <div className="flex px-4 items-center justify-between py-4 xl:hidden container m-auto relative">
+    <img src={logo} alt="paystack-logo" />
+
+<List onClick={openNav} className="cursor-pointer"/>
+{ mob && <NavMob/>}
+    </div>
     <div className=" hidden xl:flex items-center justify-between py-5 font-Roboto text-primary-blue font-bold  container m-auto">
       <div className="flex items-center justify-center gap-4">
         <img src={logo} alt="paystack-logo" />
+     
         <p
           onClick={clickBtn}
           className="relative flex items-center gap-1 cursor-pointer hover:text-sky-500"
@@ -38,7 +50,7 @@ const Nav = () => {
         {isOpen && <Learn />}
       </div>
 
-      <div className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-center gap-4 ">
         <Dropdown
           label="Developers"
           items={["Overview", "Intergration", "Status pay", "Documentation"]}
@@ -57,7 +69,8 @@ const Nav = () => {
           items={["Ghana", "Kenya", "South Africa", "Others"]}
         />
       </div>
-    </div>
+      </div>
+      </>
   );
 };
 

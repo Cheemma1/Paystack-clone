@@ -49,25 +49,24 @@ export const list = [
     ans: [{ ans1: "Service Partners Directory" }, { ans1: "Nigeria Logos" }],
   },
   {
-    id:7,
-    heading:"Support" ,
-    ans: [ {ans1:"Help Desk"},
-    {ans1:"Contact Us"},
-    {ans1:"Why i was Debited"},
-    
-    ]
-    },
-    {
-        id:8,
-        heading:"About" ,
-        ans: [ {ans1:"Company"},
-        {ans1:"Subscribe"},
-        {ans1:"Complaince"},
-        {ans1:"Carrers"},
-        {ans1:"Media Kit"},
-        {ans1:"Privacy & Terms"},
-        ]
-        },
-        
-    
+    id: 7,
+    heading: "Support",
+    ans: [
+      { ans1: "Help Desk" },
+      { ans1: "Contact Us" },
+      { ans1: "Why i was Debited" },
+    ],
+  },
+  {
+    id: 8,
+    heading: "About",
+    ans: [
+      { ans1: "Company" },
+      { ans1: "Subscribe" },
+      { ans1: "Complaince" },
+      { ans1: "Carrers" },
+      { ans1: "Media Kit" },
+      { ans1: "Privacy & Terms" },
+    ],
+  },
 ];

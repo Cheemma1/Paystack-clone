@@ -4,9 +4,9 @@ import { CaretRight, Check } from 'phosphor-react'
 
 const GifSection = () => {
   return (
-    <div className='container m-auto font-Roboto text-primary-blue mt-28 px-4 md:px-0'>
+    <div className=' container m-auto text-primary-blue mt-28 px-4 md:px-0'>
         <div className='py-4'>
-<h1 className=' text-3xl md:text-5xl font-bold pb-1 font-Boing'>Simple, easy payments</h1>
+<h1 className=' text-3xl lg:text-5xl font-bold pb-1 font-Boing'>Simple, easy payments</h1>
 <p className='text-lg font-Roboto'>Building a business is hard. Getting paid shouldn't be.</p>
 </div>
 <div className ='flex  flex-col md:flex-row items-center justify-between md:gap-32'>
@@ -32,9 +32,9 @@ const GifSection = () => {
 
     </div>
     <div className='pt-10 md:py-6 '>
-         <h2 className='text-4xl font-bold font-Boing md:w-3/4'>Enjoy phenomenal  transaction success rates</h2>
+         <h2 className='text-4xl font-bold font-Boing lg:w-3/4'>Enjoy phenomenal  transaction success rates</h2>
     
-    <p className='py-3 md:w-3/4 font-Roboto'>We automatically route payments through the most optimal channels, ensuring the highest transaction  success rates in the market.</p>
+    <p className='py-3 lg:w-3/4 font-Roboto'>We automatically route payments through the most optimal channels, ensuring the highest transaction  success rates in the market.</p>
     <p className='text-light-green flex items-center gap-2'> <span className='border-2 border-light-green rounded-full text-light-green'><CaretRight/></span> Find out how we achieve high success rates</p>
     </div>
 </div> 

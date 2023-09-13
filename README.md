@@ -1,8 +1,7 @@
-# React + Vite
+# Paystack Clone Landing Page (For Learning Purposes Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Welcome to the Paystack Clone Landing Page! This project is a React-based clone of the popular online payment processing service, Paystack. I created this project solely for my learning and practicing React. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+

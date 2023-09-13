@@ -9,7 +9,7 @@ const Dropdown = ({ label, items }) => {
   };
 
   return (
-    <div className="relative inline-block ">
+    <div className="relative ">
    
       <p
         className="cursor-pointer flex items-center gap-1 hover:text-sky-500"
@@ -19,7 +19,7 @@ const Dropdown = ({ label, items }) => {
         <CaretDown weight="fill" />
       </p>
       {isOpen && (
-        <div className=" absolute w-fit px-4  mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <div className=" absolute right-3  w-max px-3 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
           <ul>
             {items.map((item, index) => (
           

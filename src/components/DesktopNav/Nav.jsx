@@ -1,10 +1,11 @@
 import { useState } from "react";
-import Dropdown from "../DesktopNav/Dropdown";
+import Dropdown from "./Dropdown";
 import logo from "../../assets/Frame.svg";
 import Open from "./Open";
 import { CaretDown, List } from "phosphor-react";
 import Learn from "./Learn";
 import NavMob from "../MobileNav/NavMob";
+import NavHeader from "../MobileNav/NavHeader";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -16,19 +17,19 @@ const Nav = () => {
   const clickBtn1 = () => {
     setIsOpen(!isOpen);
   };
+
   const [mob, setMob] =useState(false)
-const openNav=() =>{
-  setMob(!mob)
-}
   return (
     <>
-    <div className="flex px-4 items-center justify-between py-4 xl:hidden container m-auto relative">
+    {/* <div className="flex items-center justify-between lg:hidden"> */}
+    {/* <NavHeader/> */}
+    <div className="flex items-center    px-4 justify-between py-4 lg:hidden relative">
     <img src={logo} alt="paystack-logo" />
 
-<List onClick={openNav} className="cursor-pointer"/>
-{ mob && <NavMob/>}
-    </div>
-    <div className=" hidden xl:flex items-center justify-between py-5 font-Roboto text-primary-blue font-bold  container m-auto">
+<List onClick={()=>setMob(!mob) } className="cursor-pointer " size={30}/>
+{ mob && <NavMob mob={mob} setMob={setMob}/>}
+</div>
+    <div className=" hidden lg:flex items-center justify-between py-5 font-Roboto text-primary-blue font-bold  container m-auto">
       <div className="flex items-center justify-center gap-4">
         <img src={logo} alt="paystack-logo" />
      

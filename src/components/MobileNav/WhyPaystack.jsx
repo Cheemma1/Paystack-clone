@@ -1,20 +1,21 @@
 
-import { Link, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import logo from '../../assets/Frame.svg'
-import { CaretLeft, X } from 'phosphor-react'
+import {  X } from 'phosphor-react'
 
 
-export const WhyPaystack = () => {
+export const WhyPaystack = ({mob , setMob}) => {
  
 const navigate = useNavigate()
   return (
     <div className='font-Roboto p-4 h-screen'>
      
-     <div className="flex items-center  px-4 justify-between py-4 lg:hidden relative">
+     <div className="flex items-center justify-between pt-4 pb-6 lg:hidden relative">
     <img src={logo} alt="paystack-logo" />
-      <X onClick={()=>navigate("/")} className="cursor-pointer" size={30}/>
+      <X onClick={()=>setMob(!mob)} className="cursor-pointer" size={30}/>
+    
       </div> 
-      <p className='flex items-center gap-1'> <Link to={"/mob"}> <CaretLeft/>Back</Link></p>
+     
 
 <div >
     <p className=' hover:text-sky-500 cursor-pointer font-semibold text-lg py-2'>Why choose paystack</p>

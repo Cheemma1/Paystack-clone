@@ -6,7 +6,10 @@ const Protect = () => {
     <div className='container m-auto flex items-center justify-between md:gap-10 text-primary-blue px-4 md:px-0 pb-11'>
 
         <div className='w-3/4 hidden md:block'>
-<video src={vid}></video>
+<video > 
+<source src={vid} type="video/mp4"/>
+
+</video>
         </div>
 
 <div>

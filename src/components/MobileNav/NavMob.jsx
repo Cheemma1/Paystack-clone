@@ -1,18 +1,18 @@
 import { CaretDown, X } from 'phosphor-react'
-import { Link, useNavigate, } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import NavHeader from './NavHeader'
 
 
-const NavMob = ( ) => {
+const NavMob = ({mob, setMob} ) => {
 
-  const navi = useNavigate()
+
 
   return (
     <div className='fixed top-0 left-0   bottom-0 bg-slate-50 h-screen w-full '>
       <div className='flex items-center justify-between '>
       <NavHeader/>
     
-   <X onClick={()=>navi("/")} 
+   <X onClick={()=>setMob(!mob)} 
       className="cursor-pointer" size={30}/> 
       
       </div>

@@ -4,7 +4,7 @@ import logo from '../../assets/Frame.svg'
 import {  X } from 'phosphor-react'
 
 
-export const WhyPaystack = ({mob , setMob}) => {
+export const WhyPaystack = () => {
  
 const navigate = useNavigate()
   return (
@@ -12,7 +12,7 @@ const navigate = useNavigate()
      
      <div className="flex items-center justify-between pt-4 pb-6 lg:hidden relative">
     <img src={logo} alt="paystack-logo" />
-      <X onClick={()=>setMob(!mob)} className="cursor-pointer" size={30}/>
+      <X onClick={()=>navigate("/")} className="cursor-pointer" size={30}/>
     
       </div> 
      
